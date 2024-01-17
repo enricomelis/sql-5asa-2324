@@ -14,6 +14,6 @@ CREATE TABLE squadra (
     codice_caserma INT NOT NULL,
     nome_caserma VARCHAR(10) NOT NULL,
 
-    PRIMARY KEY (codice-squadra),
+    PRIMARY KEY (codice),
     FOREIGN KEY ( codice_caserma ) REFERENCES caserma.codice
 );
